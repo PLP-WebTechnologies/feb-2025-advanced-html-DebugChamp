@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Web Page</title>
+</head>
+
+<body>
+  <h2>My To-Do List</h2>
+  <ol type="I">
+    <li>Study HTML</li>
+    <li>Practice CSS</li>
+    <li>Learn JavaScript</li>
+  </ol>
+
+  <h2>Beautiful Nature</h2>
+  <img src="https://images.pexels.com/photos/31416900/pexels-photo-31416900/free-photo-of-snowy-mt-yotei-under-dramatic-clouds.jpeg" alt="Nature Image" width="400">
+
+  <h2>Contact List</h2>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Mobile</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>123 Main St</td>
+      <td>0123456789</td>
+      <td>alice@example.com</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>456 Elm St</td>
+      <td>0987654321</td>
+      <td>bob@example.com</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>789 Oak St</td>
+      <td>0765432198</td>
+      <td>charlie@example.com</td>
+    </tr>
+    <tr>
+      <td>Diana</td>
+      <td>321 Pine St</td>
+      <td>0654321987</td>
+      <td>diana@example.com</td>
+    </tr>
+    <tr>
+      <td>Edward</td>
+      <td>654 Birch St</td>
+      <td>0543219876</td>
+      <td>edward@example.com</td>
+    </tr>
+  </table>
+
+  <h2>Register</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Create password" required><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" required>
+      <option value="">Select</option>
+      <option value="sa">South Africa</option>
+      <option value="us">USA</option>
+      <option value="uk">UK</option>
+    </select><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male" required> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Interests:</label><br>
+    <input type="checkbox" name="interests" value="coding"> Coding<br>
+    <input type="checkbox" name="interests" value="gaming"> Gaming<br>
+    <input type="checkbox" name="interests" value="reading"> Reading<br><br>
+
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
